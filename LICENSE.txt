@@ -27,3 +27,9 @@ THE SOFTWARE.
 The MIT License (MIT)
 
 Copyright (c) 2016 Parker Moore
+
+## Jekyll Feed
+
+The MIT License (MIT)
+
+Copyright (c) 2015 Ben Balter

@@ -4,6 +4,11 @@ Gem Theme for [Jekyll (3.2.1)](https://jekyllrb.com/) based on the official them
 [minima (1.2)](https://github.com/jekyll/minima) by
 [Parker Moore](https://github.com/parkr).
 
+## Plugins
+
+* [Jekyll Feed](https://rubygems.org/gems/jekyll-feed) by [Ben Balter](https://github.com/benbalter)
+  more info [about plugin and configs](https://github.com/jekyll/jekyll-feed)
+
 If you want to know the steps to create or re-use this scaffold, **take a look at this** [**wiki**](https://github.com/StartZeroGnu/gem-themes/wiki)
 
 **I used the this files of "minima theme" as an example**
@@ -18,6 +23,7 @@ If you want to know the steps to create or re-use this scaffold, **take a look a
 * [Jekyll Docs | Themes](http://jekyllrb.com/docs/themes/)
 * [Minima (1.2)](https://github.com/jekyll/minima)
 * [RubyGems](https://rubygems.org)
+* [Jekyll Feed](https://github.com/jekyll/jekyll-feed)
 
 ## Contributing
 

@@ -36,6 +36,12 @@
 
       <div class="footer-col footer-col-3">
         <p>{{ site.description | escape }}</p>
+        <p class="rss-subscribe">
+          subscribe via
+          <a href="{{ "/atom.xml" | prepend: site.baseurl }}">Atom</a>
+          or
+          <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+        </p>
       </div>
     </div>
 

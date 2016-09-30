@@ -18,6 +18,8 @@ Gem Theme for [Jekyll (3.2.1)](https://jekyllrb.com/) based on the official them
   * **To enable**
   * rename `{% for post in site.posts %}` to `{% for post in paginator.posts %}`
     in `index.html`
+* [Jekyll SEO](https://rubygems.org/gems/jekyll-seo-tag) by [Ben Balter](https://github.com/benbalter)
+  more info [about plugin and configs](https://github.com/jekyll/jekyll-seo-tag)
 
 If you want to know the steps to create or re-use this scaffold, **take a look at this** [**wiki**](https://github.com/StartZeroGnu/gem-themes/wiki)
 
@@ -36,6 +38,7 @@ If you want to know the steps to create or re-use this scaffold, **take a look a
 * [Jekyll Feed](https://github.com/jekyll/jekyll-feed)
 * [Jekyll Gist](https://github.com/jekyll/jekyll-gist)
 * [Jekyll Paginate](https://github.com/jekyll/jekyll-paginate)
+* [Jekyll SEO](https://github.com/jekyll/jekyll-seo-tag)
 
 ## Contributing
 

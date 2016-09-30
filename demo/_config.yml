@@ -34,7 +34,12 @@ theme: writers-zone
 # Plugins
 gems:
   - jekyll-feed
+  - jekyll-gist
 
 # Feed
 feed:
   path: atom.xml
+
+# Gist
+gist:
+  noscript: false

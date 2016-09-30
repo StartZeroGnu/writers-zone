@@ -21,7 +21,7 @@ If you want to know the steps to create or re-use this scaffold, **take a look a
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/StartZeroGnu/gem-themes/issues. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/StartZeroGnu/writers-zone/issues. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 

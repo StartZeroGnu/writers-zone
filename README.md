@@ -27,7 +27,7 @@ Gem Theme for [Jekyll (3.2.1)](https://jekyllrb.com/) based on the official them
 
 If you want to know the steps to create or re-use this scaffold, **take a look at this** [**wiki**](https://github.com/StartZeroGnu/gem-themes/wiki)
 
-**I used the this files of "minima theme" as an example**
+**I used this files of "minima theme" as an example**
 
 * ["minima.gemspec"](https://github.com/jekyll/minima/blob/master/minima.gemspec)
 * [".gitignore"](https://github.com/jekyll/minima/blob/master/.gitignore)

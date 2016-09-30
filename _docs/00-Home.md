@@ -10,7 +10,7 @@ hobbiest web development since March 2016**
 > Please be patient with my English is not my native language and I'm not good
 > at explaining things even in my language.
 
-**I used the this files of "minima theme" as an example**
+**I used this files of "minima theme" as an example**
 
 * ["minima.gemspec"](https://github.com/jekyll/minima/blob/master/minima.gemspec)
 * [".gitignore"](https://github.com/jekyll/minima/blob/master/.gitignore)

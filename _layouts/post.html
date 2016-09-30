@@ -12,6 +12,8 @@ layout: default
     {{ content }}
   </div>
 
+  {% include pagination/posts.html %}
+
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
   {% endif %}

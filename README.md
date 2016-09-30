@@ -13,6 +13,11 @@ Gem Theme for [Jekyll (3.2.1)](https://jekyllrb.com/) based on the official them
   * **Quick Usage**
   * `{% gist StartZeroGnu/8b038a1a07b8f7aa8e429960e1500662 %}` (entire gist with all files)
   * `{% gist StartZeroGnu/8b038a1a07b8f7aa8e429960e1500662 demo2.md %}`  (to show just the specified file)
+* [Jekyll Paginate](https://rubygems.org/gems/jekyll-paginate) by [Parker Moore](https://github.com/parkr)
+  more info [about plugin and configs](http://jekyllrb.com/docs/pagination/)
+  * **To enable**
+  * rename `{% for post in site.posts %}` to `{% for post in paginator.posts %}`
+    in `index.html`
 
 If you want to know the steps to create or re-use this scaffold, **take a look at this** [**wiki**](https://github.com/StartZeroGnu/gem-themes/wiki)
 
@@ -30,6 +35,7 @@ If you want to know the steps to create or re-use this scaffold, **take a look a
 * [RubyGems](https://rubygems.org)
 * [Jekyll Feed](https://github.com/jekyll/jekyll-feed)
 * [Jekyll Gist](https://github.com/jekyll/jekyll-gist)
+* [Jekyll Paginate](https://github.com/jekyll/jekyll-paginate)
 
 ## Contributing
 

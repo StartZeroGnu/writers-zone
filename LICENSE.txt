@@ -24,18 +24,24 @@ THE SOFTWARE.
 
 ## minima
 
-The MIT License (MIT)
+  The MIT License (MIT)
 
-Copyright (c) 2016 Parker Moore
+  Copyright (c) 2016 Parker Moore
 
 ## Jekyll Feed
 
-The MIT License (MIT)
+  The MIT License (MIT)
 
-Copyright (c) 2015 Ben Balter
+  Copyright (c) 2015 Ben Balter
 
 ## Jekyll Gist
 
-The MIT License (MIT)
+  The MIT License (MIT)
 
-Copyright (c) 2014 Parker Moore
+  Copyright (c) 2014 Parker Moore
+
+## Jekyll Paginate
+
+  The MIT License (MIT)
+
+  Copyright (c) 2014 Parker Moore

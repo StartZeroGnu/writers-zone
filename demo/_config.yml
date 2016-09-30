@@ -35,6 +35,7 @@ theme: writers-zone
 gems:
   - jekyll-feed
   - jekyll-gist
+  - jekyll-paginate
 
 # Feed
 feed:
@@ -43,3 +44,7 @@ feed:
 # Gist
 gist:
   noscript: false
+
+# Paginate
+paginate: 3
+paginate_path: /page:num/

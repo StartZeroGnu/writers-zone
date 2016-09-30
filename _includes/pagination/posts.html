@@ -1,0 +1,19 @@
+<!--
+settings and more info:
+http://jekyllrb.com/docs/pagination/#render-the-paginated-posts
+source code copy/paste from:
+http://www.sigmainfy.com/blog/how-to-add-jekyll-pagination-next-previous-post-link.html#add-next-and-previous-post-links
+-->
+
+<div class="pagination-posts">
+  {% if page.previous.url %}
+    <a class="previous-posts" href="{{ page.previous.url | prepend: site.baseurl }}">&laquo; {{ page.previous.title | truncate: 45 }}</a>
+  {% else %}
+    <span>&laquo; ...</span>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next-posts" href="{{ page.next.url | prepend: site.baseurl }}">{{ page.next.title | truncate: 45 }} &raquo;</a>
+  {% else %}
+    <span>... &raquo;</span>
+  {% endif %}
+</div>

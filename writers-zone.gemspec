@@ -21,4 +21,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 11.3"
   spec.add_development_dependency "jekyll-feed", "~> 0.7.1"
   spec.add_development_dependency "jekyll-gist", "~> 1.4"
+  spec.add_development_dependency "jekyll-paginate", "~> 1.1"
 end

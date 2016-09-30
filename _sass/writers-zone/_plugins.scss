@@ -1,0 +1,43 @@
+/**
+ * Pagination
+ */
+
+.pagination-pages,
+.pagination-posts {
+
+  padding-top: $spacing-unit;
+  border-top: 1px solid $grey-color-light;
+
+  // compatibility with all browsers (desktop/mobile) less
+  // - IE < 10
+  // - Opera (desktop/mobile) < 12.1
+  // more datails: http://caniuse.com/#feat=flexbox
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+
+}
+
+.pagination-pages { margin-top: $spacing-unit / 2 ; }
+
+.previous-posts,
+.next-posts {
+
+  -webkit-box-flex: 0;
+  -moz-box-flex: 0;
+  -webkit-flex: 0 1 48%;
+  -ms-flex: 0 1 48%;
+  flex: 0 1 48%;
+
+}
+
+.next-posts { text-align: right; }

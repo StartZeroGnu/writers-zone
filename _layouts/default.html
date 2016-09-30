@@ -8,9 +8,15 @@
     {% include header.html %}
 
     <main class="page-content" aria-label="Content">
+
       <div class="wrapper">
         {{ content }}
       </div>
+
+      {% if paginator.total_pages > 1 %}
+        {% include pagination/pages.html %}
+      {% endif %}
+
     </main>
 
     {% include footer.html %}

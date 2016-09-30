@@ -24,10 +24,12 @@ Gem Theme for [Jekyll (3.2.1)](https://jekyllrb.com/) based on the official them
   more info [about plugin and configs](https://github.com/jekyll/jekyll-sitemap)
   * **Usage**
   *  To exclude specific pages/posts set `sitemap: false` in the front matter of the page/post
+* [Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search) by [Christian Fei](https://github.com/christian-fei)
+  more info [about plugin and configs](https://github.com/christian-fei/Simple-Jekyll-Search)
 
 If you want to know the steps to create or re-use this scaffold, **take a look at this** [**wiki**](https://github.com/StartZeroGnu/gem-themes/wiki)
 
-**I used this files of "minima theme" as an example**
+**I used this files of "minima theme" as an example** to create this scaffold
 
 * ["minima.gemspec"](https://github.com/jekyll/minima/blob/master/minima.gemspec)
 * [".gitignore"](https://github.com/jekyll/minima/blob/master/.gitignore)
@@ -44,6 +46,7 @@ If you want to know the steps to create or re-use this scaffold, **take a look a
 * [Jekyll Paginate](https://github.com/jekyll/jekyll-paginate)
 * [Jekyll SEO](https://github.com/jekyll/jekyll-seo-tag)
 * [Jekyll Sitemap](https://github.com/jekyll/jekyll-sitemap)
+* [Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search)
 
 ## Contributing
 

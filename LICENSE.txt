@@ -57,3 +57,9 @@ THE SOFTWARE.
   The MIT License (MIT)
 
   Copyright (c) 2014 GitHub, inc.
+
+## Simple Jekyll Search
+
+  The MIT License (MIT)
+
+  Copyright (c) 2015 Christian Fei

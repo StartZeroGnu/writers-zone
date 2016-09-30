@@ -41,3 +41,37 @@
 }
 
 .next-posts { text-align: right; }
+
+/**
+ * Search
+ */
+
+.search {
+
+  margin-bottom: $spacing-unit;
+  padding-bottom: $spacing-unit;
+  border-bottom: 1px solid $grey-color-light;
+  color: $grey-color;
+
+  input {
+
+    border: 1px solid $grey-color-light;
+    padding: 0.1rem 0.3rem;
+    font-size: $base-font-size;
+    color: $grey-color;
+
+  }
+
+  ul {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li:first-child { padding-top: $spacing-unit; }
+
+    a { margin-left: $spacing-unit / 8; }
+
+  }
+
+}

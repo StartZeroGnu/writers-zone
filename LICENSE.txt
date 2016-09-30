@@ -51,3 +51,9 @@ THE SOFTWARE.
   The MIT License (MIT)
 
   Copyright (c) 2015 Ben Balter
+
+## Jekyll Sitemap
+
+  The MIT License (MIT)
+
+  Copyright (c) 2014 GitHub, inc.

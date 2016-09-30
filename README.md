@@ -10,16 +10,20 @@ Gem Theme for [Jekyll (3.2.1)](https://jekyllrb.com/) based on the official them
   more info [about plugin and configs](https://github.com/jekyll/jekyll-feed)
 * [Jekyll Gist](https://rubygems.org/gems/jekyll-gist) by [Parker Moore](https://github.com/parkr)
   more info [about plugin and configs](https://github.com/jekyll/jekyll-gist)
-  * **Quick Usage**
+  * **Usage**
   * `{% gist StartZeroGnu/8b038a1a07b8f7aa8e429960e1500662 %}` (entire gist with all files)
   * `{% gist StartZeroGnu/8b038a1a07b8f7aa8e429960e1500662 demo2.md %}`  (to show just the specified file)
 * [Jekyll Paginate](https://rubygems.org/gems/jekyll-paginate) by [Parker Moore](https://github.com/parkr)
   more info [about plugin and configs](http://jekyllrb.com/docs/pagination/)
-  * **To enable**
-  * rename `{% for post in site.posts %}` to `{% for post in paginator.posts %}`
+  * **Usage**
+  * To enable rename `{% for post in site.posts %}` to `{% for post in paginator.posts %}`
     in `index.html`
 * [Jekyll SEO](https://rubygems.org/gems/jekyll-seo-tag) by [Ben Balter](https://github.com/benbalter)
   more info [about plugin and configs](https://github.com/jekyll/jekyll-seo-tag)
+* [Jekyll Sitemap](https://rubygems.org/gems/jekyll-sitemap) by [Ben Balter](https://github.com/benbalter)
+  more info [about plugin and configs](https://github.com/jekyll/jekyll-sitemap)
+  * **Usage**
+  *  To exclude specific pages/posts set `sitemap: false` in the front matter of the page/post
 
 If you want to know the steps to create or re-use this scaffold, **take a look at this** [**wiki**](https://github.com/StartZeroGnu/gem-themes/wiki)
 
@@ -39,6 +43,7 @@ If you want to know the steps to create or re-use this scaffold, **take a look a
 * [Jekyll Gist](https://github.com/jekyll/jekyll-gist)
 * [Jekyll Paginate](https://github.com/jekyll/jekyll-paginate)
 * [Jekyll SEO](https://github.com/jekyll/jekyll-seo-tag)
+* [Jekyll Sitemap](https://github.com/jekyll/jekyll-sitemap)
 
 ## Contributing
 

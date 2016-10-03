@@ -2,9 +2,10 @@
 layout: post
 title:  "Jekyll Gist (demo)"
 date:   2016-09-30 11:43:21 +0200
-author: StartZeroGnu
 categories: jekyll plugins
 tags: jekyll-gist demo
+author: StartZeroGnu
+sitemap: false
 ---
 
 Quick start jekyll-gist

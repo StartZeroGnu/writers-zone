@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "writers-zone"
-  spec.version       = "0.1.1"
+  spec.version       = "0.1.2"
   spec.authors       = ["StartZeroGnu"]
   spec.email         = ["startzerognu@gmail.com"]
 
-  spec.summary       = %q{Gem Theme for Jekyll (3.2.1) based on the official theme minima (1.2)}
+  spec.summary       = %q{Gem Theme for Jekyll (3.2.1) based on the official theme minima (1.2) with some plugins installed}
   spec.homepage      = "https://github.com/StartZeroGnu/writers-zone"
   spec.license       = "MIT"
 

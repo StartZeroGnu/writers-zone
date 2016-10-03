@@ -18,5 +18,10 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "rake", "~> 11.3"
 
-  spec.add_runtime_dependency "github-pages"
+  spec.add_runtime_dependency "jekyll", "~> 3.2"
+  spec.add_runtime_dependency "jekyll-feed", "~> 0.7"
+  spec.add_runtime_dependency "jekyll-gist", "~> 1.4"
+  spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
+  spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.0"
+  spec.add_runtime_dependency "jekyll-sitemap", "~> 0.11"
 end

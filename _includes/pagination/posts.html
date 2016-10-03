@@ -7,12 +7,12 @@ http://www.sigmainfy.com/blog/how-to-add-jekyll-pagination-next-previous-post-li
 
 <div class="pagination-posts">
   {% if page.previous.url %}
-    <a class="previous-posts" href="{{ page.previous.url | prepend: site.baseurl }}">&laquo; {{ page.previous.title | truncate: 45 }}</a>
+    <a class="previous-posts" href="{{ page.previous.url | prepend: site.baseurl }}" title="{{ page.previous.title }}">&laquo; {{ page.previous.title | truncate: 45 }}</a>
   {% else %}
     <span>&laquo; ...</span>
   {% endif %}
   {% if page.next.url %}
-    <a class="next-posts" href="{{ page.next.url | prepend: site.baseurl }}">{{ page.next.title | truncate: 45 }} &raquo;</a>
+    <a class="next-posts" href="{{ page.next.url | prepend: site.baseurl }}" title="{{ page.next.title }}">{{ page.next.title | truncate: 45 }} &raquo;</a>
   {% else %}
     <span>... &raquo;</span>
   {% endif %}

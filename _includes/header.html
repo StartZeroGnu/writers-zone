@@ -18,7 +18,15 @@
       <div class="trigger">
         {% for my_page in site.pages %}
           {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: full_base_url }}" title="{{ my_page.title }}">{{ my_page.title | escape }}</a>
+          <a
+            class="page-link"
+            href="{{ my_page.url | prepend: full_base_url }}"
+            title="{{ my_page.title }}">
+            {% if my_page.icon %}
+              {% include icons/icon.html icon-name=my_page.icon class='text-top' %}
+            {% endif %}
+            {{ my_page.title | escape }}
+          </a>
           {% endif %}
         {% endfor %}
       </div>

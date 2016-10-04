@@ -9,12 +9,12 @@
         <ul class="contact-list">
           <li>
             {% if site.author %}
-              {{ site.author | escape }}
+              {% include icons/icon.html icon-name='person' %}{{ site.author | escape }}
             {% else %}
               {{ site.title | escape }}
             {% endif %}
             </li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li>{% include icons/icon.html icon-name='mail' %}<a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
 
@@ -22,13 +22,23 @@
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
-            {% include icon-github.html username=site.github_username %}
+            {% include
+              icons/user.html
+              icon-name='github'
+              href='https://github.com'
+              username=site.github_username
+            %}
           </li>
           {% endif %}
 
           {% if site.twitter_username %}
           <li>
-            {% include icon-twitter.html username=site.twitter_username %}
+            {% include
+              icons/user.html
+              icon-name='twitter'
+              href='https://twitter.com'
+              username=site.twitter_username
+            %}
           </li>
           {% endif %}
         </ul>
@@ -37,7 +47,8 @@
       <div class="footer-col footer-col-3">
         <p>{{ site.description | escape }}</p>
         <p class="rss-subscribe">
-          subscribe via
+          {% include icons/icon.html icon-name='rss' %}
+          via
           <a href="{{ "/atom.xml" | prepend: site.baseurl }}" title="Atom">Atom</a>
           or
           <a href="{{ "/feed.xml" | prepend: site.baseurl }}" title="RSS">RSS</a>

@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "writers-zone"
-  spec.version       = "0.1.4"
+  spec.version       = "0.1.3"
   spec.authors       = ["StartZeroGnu"]
   spec.email         = ["startzerognu@gmail.com"]
 

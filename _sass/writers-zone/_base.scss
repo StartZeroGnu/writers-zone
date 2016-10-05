@@ -197,10 +197,10 @@ pre {
     }
 }
 
-.text-top > svg {
-  vertical-align: text-top;
+.text-top > svg { vertical-align: text-top; }
 
-  path {
-    fill: currentColor;
-  }
+.c-color > svg {
+
+  path { fill: currentColor; }
+
 }

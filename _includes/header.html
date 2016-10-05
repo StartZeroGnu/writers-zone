@@ -23,7 +23,7 @@
             href="{{ my_page.url | prepend: full_base_url }}"
             title="{{ my_page.title }}">
             {% if my_page.icon %}
-              {% include icons/icon.html icon-name=my_page.icon class='text-top' %}
+              {% include icons/icon.html icon-name=my_page.icon class='text-top c-color' %}
             {% endif %}
             {{ my_page.title | escape }}
           </a>

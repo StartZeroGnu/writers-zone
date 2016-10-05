@@ -26,6 +26,45 @@ and then execute
 # http://localhost:4000
 ```
 
+### Add icons
+
+Svg Icons collection [Octicons v.4.3.0](https://octicons.github.com/)
+
+Add basics icons ( e.g. about page ), this tag sends 2 params [ icon-name, class ]
+
+Classes
+* By Default ( vertical-align: text-bottom, fill: $grey-color )
+* text-top ( vertical-align: text-top )
+* c-color ( fill: currentColor )
+
+Icon names
+* Same as [Octicons collection]((https://octicons.github.com/))
+
+```
+{% include icons/icon.html
+  icon-name='alert'
+  class='text-top'
+%}
+```
+
+> 2 classes `class='text-top c-color'`
+
+Add User icons ( e.g. GitHub ), this tag sends 3 params [ icon-name, href, username ]
+
+Href
+* site url without "/" at the end
+
+Username
+* reads `github_username` in `_config.yml`
+
+```
+{% include icons/user.html
+  icon-name='github'
+  href='https://github.com'
+  username=site.github_username
+%}
+```
+
 ## Plugins
 
 * [Jekyll Feed](https://rubygems.org/gems/jekyll-feed) by [Ben Balter](https://github.com/benbalter)
@@ -58,6 +97,7 @@ and then execute
 * [Jekyll SEO](https://github.com/jekyll/jekyll-seo-tag)
 * [Jekyll Sitemap](https://github.com/jekyll/jekyll-sitemap)
 * [Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search)
+* [Octicons](https://github.com/primer/octicons/)
 
 ## Contributing
 

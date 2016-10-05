@@ -63,3 +63,9 @@ THE SOFTWARE.
   The MIT License (MIT)
 
   Copyright (c) 2015 Christian Fei
+
+## Octicons
+
+  The MIT License (MIT)
+
+  Copyright (c) 2012-2016 GitHub, Inc.

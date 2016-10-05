@@ -1,4 +1,8 @@
 
+## v.0.1.3
+  * move search
+  * add octicons
+
 ## v.0.1.2
   * clean
   * plugins

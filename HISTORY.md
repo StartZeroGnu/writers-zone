@@ -1,3 +1,6 @@
+## v.0.1.4
+  * fix bug search
+  * add octicons (layout post)  
 
 ## v.0.1.3
   * move search

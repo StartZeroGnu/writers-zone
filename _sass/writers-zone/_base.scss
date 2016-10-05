@@ -190,9 +190,17 @@ pre {
  */
 .icon > svg {
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: text-bottom;
 
     path {
         fill: $grey-color;
     }
+}
+
+.text-top > svg { vertical-align: text-top; }
+
+.c-color > svg {
+
+  path { fill: currentColor; }
+
 }

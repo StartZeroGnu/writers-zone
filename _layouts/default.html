@@ -10,10 +10,6 @@
     <main class="page-content" aria-label="Content">
 
       <div class="wrapper">
-        {% if page.url == '/' or page.url contains 'page' %}
-          {% include search/search-box.html %}
-        {% endif %}
-
         {{ content }}
       </div>
 
@@ -24,11 +20,6 @@
     </main>
 
     {% include footer.html %}
-
-    {% if page.url == '/' or page.url contains 'page' %}
-      {% include search/search-js.min.html %}
-      {% include search/search-config.html %}
-    {% endif %}
 
   </body>
 

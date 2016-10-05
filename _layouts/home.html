@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <span class="post-meta">
+          {% include icons/icon.html icon-name='calendar' %}
+          {{ post.date | date: "%b %-d, %Y" }}
+        </span>
+        <h2>
+          <a
+            class="post-link"
+            href="{{ post.url | prepend: site.baseurl }}"
+            title="{{ post.title }}">
+            {{ post.title | escape }}
+          </a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

@@ -5,13 +5,35 @@ html,body {
 
   width: 100%;
   height: 100%;
+
+  // compatibility with all browsers (desktop/mobile) less
+  // - IE < 10
+  // - Opera (desktop/mobile) < 12.1
+  // more datails: http://caniuse.com/#feat=flexbox
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+
+
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 
 }
 
 main {
 
-  flex: 1;
-  
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+
 }

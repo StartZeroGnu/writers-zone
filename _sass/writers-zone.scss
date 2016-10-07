@@ -21,20 +21,20 @@
 @import
   'layout/sticky-footer',
   'layout/header',
-  'layout/footer';
-//  'layout/pagination',
-//  'layout/search';
+  'layout/footer',
+  'layout/pagination',
+  'layout/search';
 
 // 5. Components
 @import
-  'components/icons';
-//   'components/button';
+  'components/icons',
+  'components/button';
 
 // 6. Page-specific styles
-// @import
-//   'pages/home',
-//   'pages/pages',
-//   'pages/posts';
+@import
+  'pages/home',
+  'pages/pages',
+  'pages/posts';
 
 // 7. Themes
 @import

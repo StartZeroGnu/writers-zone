@@ -12,6 +12,7 @@ Gem Theme for [Jekyll (3.2.1)](https://jekyllrb.com/) based on the official them
   * IE < 10
   * Opera "desktop/mobile" < 12.1
 * Sticky footer
+* Toggle menu on-click with only CSS
 * Full text search
 * SVG icons
 

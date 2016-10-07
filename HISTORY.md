@@ -1,3 +1,9 @@
+## v.0.1.5
+  * Add Sass boilerplate (7-1)
+  * Mobile first
+  * Flex
+  * Sticky footer
+
 ## v.0.1.4
   * fix bug search
   * add octicons (layout post)  

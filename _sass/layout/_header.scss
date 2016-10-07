@@ -39,6 +39,13 @@
   -ms-flex-align: center;
   align-items: center;
 
+  @include media-query($on-laptop) {
+
+    margin-right: $spacing-unit;
+    margin-left: $spacing-unit;
+
+  }
+
 }
 
 .site-title {
@@ -147,6 +154,6 @@
     transition: 0.5s;
     right: 50%;
     left: 0;
-    
+
   }
 }

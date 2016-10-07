@@ -4,8 +4,9 @@
 
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+    <section class="footer-section">
+
+      <nav class="footer-nav">
         <ul class="contact-list">
           <li>
             {% if site.author %}
@@ -14,11 +15,12 @@
               {{ site.title | escape }}
             {% endif %}
             </li>
-          <li>{% include icons/icon.html icon-name='mail' %}<a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li>
+            {% include icons/icon.html icon-name='mail' %}
+            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+          </li>
         </ul>
-      </div>
 
-      <div class="footer-col footer-col-2">
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
@@ -42,9 +44,9 @@
           </li>
           {% endif %}
         </ul>
-      </div>
+      </nav>
 
-      <div class="footer-col footer-col-3">
+      <section class="footer-description">
         <p>{{ site.description | escape }}</p>
         <p class="rss-subscribe">
           {% include icons/icon.html icon-name='rss' %}
@@ -53,9 +55,10 @@
           or
           <a href="{{ "/feed.xml" | prepend: site.baseurl }}" title="RSS">RSS</a>
         </p>
-      </div>
-    </div>
+      </section>
 
-  </div>
+    </section>
+
+   </div>
 
 </footer>

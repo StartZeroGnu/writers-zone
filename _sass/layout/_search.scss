@@ -1,0 +1,42 @@
+/**
+ * Search
+ */
+
+.search-input {
+
+  padding-bottom: $spacing-unit;
+  color: $grey-color;
+  display: flex;
+
+  .icon {
+    margin-right: $spacing-unit / 4;
+  }
+
+  input {
+
+    border: 1px solid $grey-color-light;
+    padding: 0.1rem 0.3rem;
+    font-size: $base-font-size;
+    color: $grey-color;
+    flex: 1;
+
+  }
+
+}
+
+.search-box ul {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li:first-child {
+
+      border-top: 1px solid $grey-color-light;
+      padding-top: $spacing-unit;
+
+    }
+
+    a { margin-left: $spacing-unit / 4; }
+
+}

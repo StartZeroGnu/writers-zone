@@ -4,6 +4,18 @@ Gem Theme for [Jekyll (3.2.1)](https://jekyllrb.com/) based on the official them
 [minima (1.2)](https://github.com/jekyll/minima) by
 [Parker Moore](https://github.com/parkr) with some plugins installed.
 
+## Features
+
+* Mobile friendly (Responsive desing mobile first)
+* FlexBox layout
+  * **compatibility with all browsers "desktop/mobile" less**
+  * IE < 10
+  * Opera "desktop/mobile" < 12.1
+* Sticky footer
+* Toggle menu on-click with only CSS
+* Full text search
+* SVG icons
+
 ## Installation
 
 ```sh

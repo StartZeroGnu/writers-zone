@@ -1,0 +1,95 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+/**
+ * Site footer
+ */
+.site-footer {
+
+  border-top: 1px solid $grey-color-light;
+  padding: $spacing-unit 0;
+
+}
+
+.footer-heading {
+
+  font-size: 18px;
+
+}
+
+.footer-section {
+
+  font-size: 15px;
+  color: $grey-color;
+
+}
+
+.contact-list,
+.social-media-list,
+.footer-description {
+
+  list-style: none;
+  margin-left: 0;
+
+}
+
+@include media-query($on-palm) {
+
+  .footer-nav {
+
+    // compatibility with all browsers (desktop/mobile) less
+    // - IE < 10
+    // - Opera (desktop/mobile) < 12.1
+    // more datails: http://caniuse.com/#feat=flexbox
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+  }
+
+  .contact-list,
+  .social-media-list {
+
+
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1 1 50%;
+    -ms-flex: 1 1 50%;
+    flex: 1 1 50%;
+
+  }
+}
+
+@include media-query($on-laptop) {
+
+  .footer-section {
+
+    // compatibility with all browsers (desktop/mobile) less
+    // - IE < 10
+    // - Opera (desktop/mobile) < 12.1
+    // more datails: http://caniuse.com/#feat=flexbox
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+  }
+
+  .footer-description,
+  .footer-nav {
+
+
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1 1 50%;
+    -ms-flex: 1 1 50%;
+    flex: 1 1 50%;
+
+  }
+}

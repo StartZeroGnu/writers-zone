@@ -1,0 +1,50 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the posts.
+// -----------------------------------------------------------------------------
+
+
+
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-title {
+    font-size: 36px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 42px;
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 28px;
+
+        @include media-query($on-laptop) {
+            font-size: 32px;
+        }
+    }
+
+    h3 {
+        font-size: 22px;
+
+        @include media-query($on-laptop) {
+            font-size: 26px;
+        }
+    }
+
+    h4 {
+        font-size: 18px;
+
+        @include media-query($on-laptop) {
+            font-size: 20px;
+        }
+    }
+}

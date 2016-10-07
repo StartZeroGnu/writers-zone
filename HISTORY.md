@@ -1,14 +1,21 @@
+## v.0.1.5
+  * Add Sass boilerplate (7-1)
+  * Mobile first
+  * Flex
+  * Sticky footer
+  * Toggle menu on-click with only CSS
+
 ## v.0.1.4
-  * fix bug search
-  * add octicons (layout post)  
+  * Fix bug search
+  * Add SVG octicons (layout post)  
 
 ## v.0.1.3
-  * move search
-  * add octicons
+  * Move search
+  * Add octicons
 
 ## v.0.1.2
-  * clean
-  * plugins
+  * Clean
+  * Plugins
     * Jekyll Feed
     * Jekyll Gist
     * Jekyll Paginate

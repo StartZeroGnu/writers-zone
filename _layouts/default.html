@@ -5,19 +5,21 @@
 
   <body>
 
-    {% include header.html %}
+    <div class="main">
+      {% include header.html %}
 
-    <main class="page-content" aria-label="Content">
+      <main class="page-content" aria-label="Content">
 
-      <div class="wrapper">
-        {{ content }}
-      </div>
+        <div class="wrapper">
+          {{ content }}
+        </div>
 
-      {% if paginator.total_pages > 1 %}
-        {% include pagination/pages.html %}
-      {% endif %}
+        {% if paginator.total_pages > 1 %}
+          {% include pagination/pages.html %}
+        {% endif %}
 
-    </main>
+      </main>
+    </div>
 
     {% include footer.html %}
 

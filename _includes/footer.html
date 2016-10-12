@@ -12,13 +12,15 @@
             {% if site.author %}
               {% include icons/icon.html icon-name='person' %}{{ site.author | escape }}
             {% else %}
-              {{ site.title | escape }}
+              {% include icons/icon.html icon-name='globe' %}{{ site.title | escape }}
             {% endif %}
-            </li>
+          </li>
+          {% if site.email %}
           <li>
             {% include icons/icon.html icon-name='mail' %}
             <a href="mailto:{{ site.email }}">{{ site.email }}</a>
           </li>
+          {% endif %}
         </ul>
 
         <ul class="social-media-list">
@@ -48,13 +50,6 @@
 
       <section class="footer-description">
         <p>{{ site.description | escape }}</p>
-        <p class="rss-subscribe">
-          {% include icons/icon.html icon-name='rss' %}
-          via
-          <a href="{{ "/atom.xml" | prepend: site.baseurl }}" title="Atom">Atom</a>
-          or
-          <a href="{{ "/feed.xml" | prepend: site.baseurl }}" title="RSS">RSS</a>
-        </p>
       </section>
 
     </section>

@@ -6,13 +6,13 @@ http://jekyllrb.com/docs/pagination/#render-the-paginated-posts
 <div class="wrapper">
   <div class="pagination-pages">
     {% if paginator.previous_page %}
-      <a class="previous-pages" href="{{ paginator.previous_page_path | prepend: site.baseurl }}" title="Previous">&laquo; Previous</a>
+      <a class="previous-pages" href="{{ paginator.previous_page_path | relative_url }}" title="Previous">&laquo; Previous</a>
     {% else %}
       <span class="previous-pages">&laquo; Previous</span>
     {% endif %}
     <span class="page-number">{{ paginator.page }} of {{ paginator.total_pages }}</span>
     {% if paginator.next_page %}
-      <a class="next-pages" href="{{ paginator.next_page_path | prepend: site.baseurl }}" title="Next">Next &raquo;</a>
+      <a class="next-pages" href="{{ paginator.next_page_path | relative_url }}" title="Next">Next &raquo;</a>
     {% else %}
       <span class="next-pages">Next &raquo;</span>
     {% endif %}

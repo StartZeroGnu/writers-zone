@@ -1,3 +1,7 @@
+## v.0.2.0
+  * Update Jekyll 3.3
+  * Update minima 2.0
+  
 ## v.0.1.5
   * Add Sass boilerplate (7-1)
   * Mobile first

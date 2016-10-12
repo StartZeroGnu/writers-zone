@@ -6,37 +6,41 @@
 # feature for the data you need to update frequently.
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
-# Site
-title: Test
+title: Writers Zone
 description: > # this means to ignore newlines until "baseurl:"
-  Gem Theme for Jekyll (3.2.1) based
-  on the official theme minima (1.2) by Parker Moore.
+  Gem Theme for Jekyll based on the
+  (official theme minima by Parker Moore)
+  with some plugins installed.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Author
+#Author
 author: StartZeroGnu
 email: test@email.com
 twitter_username: testTwitter
 github_username:  testGitHub
 
+# Build settings
+markdown: kramdown
+
+theme: writers-zone
+
 exclude:
   - Gemfile
   - Gemfile.lock
 
-# Build settings
-markdown: kramdown
-theme: writers-zone
+collections:
+  posts:
+    permalink: /blog/posts/:title
 
-# Plugins
+#Plugins
 gems:
   - jekyll-feed
   - jekyll-gist
@@ -44,17 +48,13 @@ gems:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Feed
-feed:
-  path: atom.xml
-
 # Gist
 gist:
   noscript: false
 
 # Paginate
 paginate: 3
-paginate_path: /page:num/
+paginate_path: /blog/page:num/
 
 # SEO (basic config)
 #

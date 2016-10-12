@@ -36,6 +36,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
+collections:
+  posts:
+    permalink: /blog/posts/:title
+
 #Plugins
 gems:
   - jekyll-feed
@@ -50,7 +54,7 @@ gist:
 
 # Paginate
 paginate: 3
-paginate_path: /page:num/
+paginate_path: /blog/page:num/
 
 # SEO (basic config)
 #

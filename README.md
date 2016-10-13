@@ -1,8 +1,10 @@
-# writers-zone
+# writers-zone :gem:
 
 Gem Theme for [Jekyll](https://jekyllrb.com/) based on the (official theme
 [minima](https://github.com/jekyll/minima) by
 [Parker Moore](https://github.com/parkr)) with some plugins installed.
+
+:warning: :construction: This theme is a work in progress (daily/weekly updates)
 
 ## Features
 
